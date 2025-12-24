@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d114e291-5554-48b9-b61b-058647c57085" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ar_hello/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ar_hello/public/cat.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ar_hello/public/mage.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ar_hello/public/scan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ar_hello/src/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ar_hello/src/demo.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3734KmzUE9UNga4mlsAeAu7sWVl" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/ar/encantar_helloworld/ar_hello",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello" />
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld\assets" />
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld\dist addons plugins encantar.d.ts encantar.js node_modules public cat.webp mage.webp scan.png vite.svg src demo.css demo.js .gitignore index.html package.json package-lock.json" />
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello" />
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld" />
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello\public" />
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ar_hello/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d114e291-5554-48b9-b61b-058647c57085" name="Changes" comment="" />
+      <created>1766118361621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766118361621</updated>
+      <workItem from="1766118362623" duration="609000" />
+      <workItem from="1766129323375" duration="19000" />
+      <workItem from="1766541475130" duration="624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
