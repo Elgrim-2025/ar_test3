@@ -8,8 +8,6 @@ This is a WebAR (Augmented Reality) project using encantar.js with A-Frame for i
 
 ## Development Commands
 
-All commands must be run from the `ar_hello/` directory:
-
 - **Start dev server**: `npm run dev`
 - **Build for production**: `npm run build`
 - **Preview production build**: `npm run preview`
@@ -18,17 +16,18 @@ Note: This project uses `rolldown-vite@7.2.5` as an override for the standard Vi
 
 ## Project Structure
 
-- `ar_hello/` - Main application directory
-  - `index.html` - A-Frame AR scene with declarative AR setup
-  - `public/` - Static assets (3D models, audio, reference images)
-    - `Sahur_v09.glb` - 3D model for AR content
-    - `Sahur_FX_250827.wav` - Audio file
-    - `sahur.webp` - Reference image for tracking
-  - `assets/` - encantar.js library and plugins
-    - `encantar.min.js` - Core encantar.js library
-    - `plugins/aframe-with-encantar.js` - A-Frame integration plugin
-    - `addons/gltf-anim.js` - Custom A-Frame component for GLTF animations
-    - `addons/ar-scan-gimmick.js` - Custom A-Frame component for scan UI overlay
+- `index.html` - A-Frame AR scene with declarative AR setup
+- `public/` - Static assets (reference images for tracking)
+  - `sahur.webp` - Reference image for tracking
+- `assets/` - encantar.js library and plugins
+  - `encantar.min.js` - Core encantar.js library
+  - `plugins/` - Rendering engine integrations
+    - `aframe-with-encantar.js` - A-Frame integration plugin (currently used)
+    - `three-with-encantar.js` - Three.js integration plugin
+    - `babylon-with-encantar.js` - Babylon.js integration plugin
+  - `addons/` - Custom A-Frame components
+    - `gltf-anim.js` - Custom A-Frame component for GLTF animations
+    - `ar-scan-gimmick.js` - Custom A-Frame component for scan UI overlay
 
 ## Architecture
 
@@ -91,7 +90,7 @@ The A-Frame scene emits tracking events:
 
 To add new trackable reference images:
 
-1. Add the image file to `ar_hello/public/` (use .webp format for best performance)
+1. Add the image file to `public/` (use .webp format for best performance)
 2. Add an `<ar-reference-image>` element inside `<ar-image-tracker>`:
    ```html
    <ar-reference-image name="my-image" src="public/my-image.webp"></ar-reference-image>
@@ -110,7 +109,8 @@ Content inside `<ar-root>` uses standard A-Frame entities:
 **Loading 3D models:**
 ```html
 <a-assets>
-  <a-asset-item id="my-model" src="public/model.glb"></a-asset-item>
+  <a-asset-item id="my-model" src="https://example.com/model.glb"></a-asset-item>
+  <!-- Or use local files: src="public/model.glb" -->
 </a-assets>
 
 <ar-root reference-image="sahur">
@@ -130,7 +130,8 @@ Content inside `<ar-root>` uses standard A-Frame entities:
 **Adding audio:**
 ```html
 <a-assets>
-  <audio id="my-sound" src="public/sound.wav"></audio>
+  <audio id="my-sound" src="https://example.com/sound.wav"></audio>
+  <!-- Or use local files: src="public/sound.wav" -->
 </a-assets>
 
 <ar-root reference-image="sahur">
@@ -139,6 +140,8 @@ Content inside `<ar-root>` uses standard A-Frame entities:
   </a-entity>
 </ar-root>
 ```
+
+Note: Assets can be loaded from remote URLs (as shown in the current `index.html`) or from the local `public/` directory.
 
 ## Available Rendering Approaches
 
