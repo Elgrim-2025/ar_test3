@@ -3,18 +3,110 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1, maximum-scale=1">
-        <title>encantar.js WebAR template</title>
-        <link href="src/demo.css" rel="stylesheet">
-        <script src="dist/encantar.min.js"></script>
-        <script src="src/demo.js"></script>
+        <title>Sahur WebAR | encantar.js and A-Frame</title>
+        <script src="./assets/encantar.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aframe@1.7.1/dist/aframe-v1.7.1.min.js"></script>
+        <script src="./assets/plugins/aframe-with-encantar.js"></script>
+        <script src="./assets/addons/gltf-anim.js"></script>
+        <script src="./assets/addons/ar-scan-gimmick.js"></script>
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        </style>
     </head>
     <body>
-        <div id="ar-viewport">
-            <div id="ar-hud" hidden>
-                <img id="scan" src="public/scan.png" draggable="false">
-            </div>
-        </div>
-        <img id="mage" src="public/mage.webp" hidden>
-        <img id="cat" src="public/cat.webp" hidden>
+
+        <!-- The AR scene -->
+        <a-scene encantar="stats: true; gizmos: true" loading-screen="enabled: false">
+
+            <!--
+            +============================+
+            | Let's set up an AR session |
+            +============================+
+            -->
+
+            <!-- The inputs that will feed the AR engine -->
+            <ar-sources>
+
+                <!-- Use a webcam -->
+                <ar-camera-source></ar-camera-source>
+
+            </ar-sources>
+
+            <!-- The trackers we'll be using in AR -->
+            <ar-trackers>
+
+                <!-- We'll track images -->
+                <ar-image-tracker resolution="160p">
+
+                    <!-- List the images that you intend to track -->
+                    <ar-reference-image name="sahur" src="public/sahur.webp"></ar-reference-image>
+
+                </ar-image-tracker>
+
+            </ar-trackers>
+
+            <!-- The AR viewport -->
+            <ar-viewport>
+
+                <!-- A 2D overlay displayed in front of the AR scene -->
+                <ar-hud>
+
+                    <!-- The scan gimmick -->
+                    <ar-scan-gimmick opacity="0.75"></ar-scan-gimmick>
+
+                </ar-hud>
+
+            </ar-viewport>
+
+
+
+            <!--
+            +=================================================+
+            | Now let's create the virtual elements           |
+            | Whatever you add to <ar-root> will appear in AR |
+            +=================================================+
+            -->
+
+            <!-- A 3D camera adapted for AR -->
+            <ar-camera></ar-camera>
+
+            <!-- Light -->
+            <a-light type="ambient" intensity="3.1416"></a-light>
+
+            <!-- Sahur 3D Model -->
+            <ar-root reference-image="sahur">
+
+                <a-entity
+                    position="0 -1.5 0"
+                    rotation="0 0 0"
+                    scale="0.5 0.5 0.5"
+                    gltf-model="#sahur-model"
+                    gltf-anim
+                >
+                    <a-sound src="#sahur-sound" autoplay="true" loop="true"></a-sound>
+                </a-entity>
+
+                <!-- Directional Light for better model visibility -->
+                <a-light
+                    type="directional"
+                    position="0 10 0"
+                    intensity="2.0"
+                    color="#ffffff"
+                ></a-light>
+
+            </ar-root>
+
+            <!-- Assets -->
+            <a-assets>
+                <a-asset-item id="sahur-model" src="https://store.clipboardapp.org/tt/Sahur_v09.glb"></a-asset-item>
+                <audio id="sahur-sound" src="public/Sahur_FX_250827.wav" preload="auto"></audio>
+            </a-assets>
+
+        </a-scene>
+
     </body>
 </html>
