@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d114e291-5554-48b9-b61b-058647c57085" name="Changes" comment="move dir">
+    <list default="true" id="d114e291-5554-48b9-b61b-058647c57085" name="Changes" comment="audio auto play false">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,10 @@
     "url": "https://github.com/Elgrim-2025/ar_test3.git",
     "accountId": "c2caeb3b-68bd-4bbc-8d3a-6f0121133dac"
   }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -49,7 +55,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.dev (1).executor": "Run",
     "npm.dev.executor": "Run",
+    "npm.preview.executor": "Run",
     "settings.editor.selected.configurable": "configurable.group.appearance",
     "ts.external.directory.path": "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -71,7 +80,27 @@
       <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/ar_hello/package.json" />
       <command value="run" />
@@ -82,8 +111,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="preview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.preview" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -107,7 +149,7 @@
       <workItem from="1766129323375" duration="19000" />
       <workItem from="1766541475130" duration="15685000" />
       <workItem from="1766706144563" duration="1061000" />
-      <workItem from="1766717273187" duration="4302000" />
+      <workItem from="1766717273187" duration="5052000" />
     </task>
     <task id="LOCAL-00001" summary="git 사후르 설정">
       <option name="closed" value="true" />
@@ -125,16 +167,36 @@
       <option name="project" value="LOCAL" />
       <updated>1766725478221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="audio auto play false">
+      <option name="closed" value="true" />
+      <created>1766725899958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766725899958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git add 테스트" />
     <MESSAGE value="git 사후르 설정" />
     <MESSAGE value="move dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="move dir" />
+    <MESSAGE value="audio auto play false" />
+    <option name="LAST_COMMIT_MESSAGE" value="audio auto play false" />
   </component>
 </project>
