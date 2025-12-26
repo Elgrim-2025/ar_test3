@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d114e291-5554-48b9-b61b-058647c57085" name="Changes" comment="git add 테스트">
-      <change afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/assets/addons/ar-scan-gimmick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/assets/addons/asset-manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/assets/addons/gltf-anim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/assets/encantar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/assets/plugins/aframe-with-encantar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/assets/plugins/babylon-with-encantar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/assets/plugins/three-with-encantar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/public/Sahur_FX_02.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/public/Sahur_FX_250827.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/public/Sahur_v09.glb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar_hello/public/sahur.webp" afterDir="false" />
+    <list default="true" id="d114e291-5554-48b9-b61b-058647c57085" name="Changes" comment="move dir">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar_hello/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar_hello/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar_hello/public/cat.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar_hello/public/mage.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar_hello/src/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar_hello/src/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Elgrim-2025"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Elgrim-2025/ar_test3.git",
+    "accountId": "c2caeb3b-68bd-4bbc-8d3a-6f0121133dac"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -39,26 +35,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/ar/encantar_helloworld/ar_hello/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/ar/encantar_helloworld/ar_hello/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "ts.external.directory.path": "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello\assets" />
@@ -68,10 +64,10 @@
       <recent name="C:\Users\user\Documents\ar\encantar_helloworld" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\ar\encantar_helloworld" />
       <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello\public" />
       <recent name="C:\Users\user\Documents\ar\encantar_helloworld\dist addons plugins encantar.d.ts encantar.js node_modules public cat.webp mage.webp scan.png vite.svg src demo.css demo.js .gitignore index.html package.json package-lock.json" />
       <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello" />
-      <recent name="C:\Users\user\Documents\ar\encantar_helloworld" />
       <recent name="C:\Users\user\Documents\ar\encantar_helloworld\ar_hello\src" />
     </key>
   </component>
@@ -111,8 +107,25 @@
       <workItem from="1766129323375" duration="19000" />
       <workItem from="1766541475130" duration="15685000" />
       <workItem from="1766706144563" duration="1061000" />
-      <workItem from="1766717273187" duration="3581000" />
+      <workItem from="1766717273187" duration="4302000" />
     </task>
+    <task id="LOCAL-00001" summary="git 사후르 설정">
+      <option name="closed" value="true" />
+      <created>1766725295546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766725295546</updated>
+    </task>
+    <task id="LOCAL-00002" summary="move dir">
+      <option name="closed" value="true" />
+      <created>1766725478221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766725478221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +133,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git add 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="git add 테스트" />
+    <MESSAGE value="git 사후르 설정" />
+    <MESSAGE value="move dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="move dir" />
   </component>
 </project>
